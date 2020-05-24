@@ -1,5 +1,5 @@
 object Volume extends App{
 
-def vol(radius:Double):Double= 4.00/3.00*math.pi*radius*radius*radius
-printf(radius(5));
+def vol(r:Double):Double= 4.00/3.00*math.pi*r*r*r
+printf(vol(5));
 }
